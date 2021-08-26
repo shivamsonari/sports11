@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<Html>
+         <Head>
+		      <Title>Sports Selector</Title>
+		 <Head>
+		 <Body>
+		     <p style="color:black;font-size:30px;">SPORTS Automation</p>
+		    <Form Method="POST" Action="/uploader" enctype = "multipart/form-data">&nbsp;&nbsp
+
+	         <input type = "file" name = "file" />
+			 <br><br>&nbsp;&nbsp;&nbsp
+                 <input type = "submit" value="Click here to upload file"/>
+                  </Form>
+                   <br><br>
+
+
+                 <p style="color:green;font-size:20px;">Select Sheets to be generated</p><br>
+                <Form Method="POST" Action="/generate">
+                cricket<Input Type="checkbox" name=sheet value="cricket">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp&nbsp;&nbsp;&nbsp;&nbsp;&nbsp
+                football<Input Type="checkbox" name=sheet value="football">
+                <br><br><br>
+                hockey<Input Type="checkbox" name=sheet value="hockey">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp&nbsp;&nbsp;&nbsp;&nbsp;&nbsp
+		        rugby<Input Type="checkbox" name=sheet value="rugby">
+                <br><br>
+                <input type="submit" value="generate">
+		    </Form>
+		 <Body>
+<Html>
